@@ -1,4 +1,4 @@
 openai
-gpt_index
+gpt_index==0.4.27
 PyPDF2
 gradio
