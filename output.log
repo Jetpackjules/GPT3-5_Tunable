@@ -1,0 +1,108 @@
+ACESSED https://zulko.github.io/moviepy/ || status code: 200
+ACESSED https://zulko.github.io/moviepy/install.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/getting_started/getting_started.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/gallery.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/examples/examples.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/docker.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/opencv_instructions.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/FAQ.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/advanced_tools/advanced_tools.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/ref/ref.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/_sources/index.rst.txt || status code: 200
+ACESSED https://zulko.github.io/moviepy/_images/logo.png || status code: 200
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+ACESSED https://zulko.github.io/moviepy/_images/demo_preview1.jpeg || status code: 200
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+ACESSED https://zulko.github.io/moviepy/index.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/_sources/install.rst.txt || status code: 200
+Skipped https://zulko.github.io/moviepy/quick_presentation.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/compositing.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/effects.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/efficient_moviepy.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/working_with_matplotlib.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audioclips.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videoclips.html due to a non-200 status code: 404
+ACESSED https://zulko.github.io/moviepy/_sources/gallery.rst.txt || status code: 200
+ACESSED https://zulko.github.io/moviepy/examples/examples.html#examples || status code: 200
+ACESSED https://zulko.github.io/moviepy/getting_started/videoclips.html || status code: 200
+Skipped https://zulko.github.io/moviepy/moving_letters.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/dancing_knights.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/ukulele_concerto.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/example_with_sound.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/star_worms.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/masked_credits.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/painting_effect.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/compo_from_image.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/logo.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/headblur.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/quick_recipes.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/several_characters.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/the_end.html due to a non-200 status code: 404
+ACESSED https://zulko.github.io/moviepy/_sources/docker.rst.txt || status code: 200
+ACESSED https://zulko.github.io/moviepy/examples/the_end.html || status code: 200
+ACESSED https://zulko.github.io/moviepy/_sources/opencv_instructions.rst.txt || status code: 200
+ACESSED https://zulko.github.io/moviepy/_sources/FAQ.rst.txt || status code: 200
+ACESSED https://zulko.github.io/moviepy/install.html#install || status code: 200
+Skipped https://zulko.github.io/moviepy/Clip.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/AudioClip.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiofx.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videotools.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiotools.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/ffmpeg.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/decorators.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/code_origanization.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/code_origanization.html#codeorganization due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/Clip.html#id1 due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html#videoclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html#videofileclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html#imageclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html#colorclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html#textclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/VideoClip/VideoClip.html#compositevideoclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/AudioClip.html#id1 due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/AudioClip.html#audiofileclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/AudioClip.html#compositeaudioclip due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.accel_decel.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.blackwhite.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.blink.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.colorx.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.crop.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.even_size.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.fadein.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.fadeout.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.freeze.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.freeze_region.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.gamma_corr.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.headblur.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.invert_colors.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.loop.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.lum_contrast.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.make_loopable.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.margin.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.mask_and.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.mask_color.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.mask_or.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.mirror_x.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.mirror_y.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.painting.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.resize.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.rotate.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.scroll.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.speedx.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.supersample.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.time_mirror.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videofx/moviepy.video.fx.all.time_symmetrize.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiofx/moviepy.audio.fx.all.audio_fadein.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiofx/moviepy.audio.fx.all.audio_fadeout.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiofx/moviepy.audio.fx.all.audio_loop.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiofx/moviepy.audio.fx.all.audio_normalize.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/audiofx/moviepy.audio.fx.all.volumex.html due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videotools.html#module-moviepy.video.tools.credits due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videotools.html#module-moviepy.video.tools.drawing due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videotools.html#module-moviepy.video.tools.segmenting due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videotools.html#module-moviepy.video.tools.subtitles due to a non-200 status code: 404
+Skipped https://zulko.github.io/moviepy/videotools.html#module-moviepy.video.tools.tracking due to a non-200 status code: 404
+output_files\younameit.pdf is ready.
+COMPLETE!
