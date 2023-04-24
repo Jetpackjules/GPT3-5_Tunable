@@ -1,27 +1,36 @@
-from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 import gradio as gr
 import os
 from langchain.chat_models import ChatOpenAI
 import json
-
+from llama_index import SimpleDirectoryReader
+from llama_index import LLMPredictor, GPTSimpleVectorIndex, PromptHelper, ServiceContext
 os.environ["OPENAI_API_KEY"] = 'API KEY HERE'
 
+global service_context
 def construct_index(directory_path):
-    max_input_size = 1096
-    num_outputs = 2500
+    global service_context
+    max_input_size = 4096
+    num_output = 256
     max_chunk_overlap = 20
-    chunk_size_limit = 600
+    chunk_size_limit = 1200
 
-    prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
-
-    llm_predictor = LLMPredictor(llm=ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo-0301", max_tokens=num_outputs))
-    # gpt-3.5-turbo-0301
-    # text-davinci-003
 
     documents = SimpleDirectoryReader(directory_path).load_data()
 
-    index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)
+    llm_predictor = LLMPredictor(llm=ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo-0301"))
+    # suggested models:
+    # gpt-4-0314
+    # gpt-3.5-turbo-0301
 
+    prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
+    service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
+    index = GPTSimpleVectorIndex.from_documents(
+    documents, service_context=service_context
+    )
+    
+
+ 
+    
     index.save_to_disk('index.json')
 
     return index
@@ -46,7 +55,7 @@ def reset_usage_count_if_needed(usage_data, client_ip):
     last_usage_time = usage_data.get(str(client_ip), {}).get('last_usage_time', 0)
     time_difference = current_time - last_usage_time
 
-    if time_difference > 1 * 1 * 60:  # Cooldown Timer (Hours * Minutes * Seconds) (set to 1 instead of zero for none)
+    if time_difference > 24 * 60 * 60:  # Cooldown Timer (Hours * Minutes * Seconds) (set to 1 instead of zero for none)
         usage_data[str(client_ip)] = {'uses': 0, 'last_usage_time': current_time}
 
     return usage_data
@@ -58,6 +67,7 @@ def log_prompt_and_response(prompt, response, file_path='chat_log.txt'):
 
 # Update the chatbot function
 def chatbot(input_text, request: gr.Request):
+    global service_context
     limit = 10
     client_ip = request.client.host
     print("IP ADDRESS: ", client_ip)
@@ -73,7 +83,7 @@ def chatbot(input_text, request: gr.Request):
     elif uses == limit:
         return "Maximum of 10 uses reached! Wait 4 hours before trying again..."
     else:
-        index = GPTSimpleVectorIndex.load_from_disk('index.json')
+        index = GPTSimpleVectorIndex.load_from_disk('index.json', service_context=service_context)
         response = index.query(input_text, response_mode="compact").response
 
     uses += 1
@@ -89,9 +99,9 @@ def chatbot(input_text, request: gr.Request):
 
 
 iface = gr.Interface(fn=chatbot,
-                     inputs=gr.inputs.Textbox(lines=7, label="Enter your text"),
+                     inputs=gr.inputs.Textbox(lines=15, label="Enter your text"),
                      outputs="text",
                      title="Custom-trained AI Chatbot")
 
-# index = construct_index("docs")
+index = construct_index("docs")
 iface.launch(share=True)
